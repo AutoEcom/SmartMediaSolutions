@@ -89,14 +89,14 @@ export default function Footer() {
           <p className="opacity-70">© {currentYear} Smart Media. {t("footer.copyright")}</p>
           
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="#">
-              <a className="text-sm opacity-70 hover:opacity-100 transition-all">{t("footer.terms")}</a>
+            <Link href="#" className="text-sm opacity-70 hover:opacity-100 transition-all">
+              {t("footer.terms")}
             </Link>
-            <Link href="#">
-              <a className="text-sm opacity-70 hover:opacity-100 transition-all">{t("footer.privacy")}</a>
+            <Link href="#" className="text-sm opacity-70 hover:opacity-100 transition-all">
+              {t("footer.privacy")}
             </Link>
-            <Link href="#">
-              <a className="text-sm opacity-70 hover:opacity-100 transition-all">{t("footer.cookies")}</a>
+            <Link href="#" className="text-sm opacity-70 hover:opacity-100 transition-all">
+              {t("footer.cookies")}
             </Link>
           </div>
         </div>
