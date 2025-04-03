@@ -1,0 +1,31 @@
+[vite] connecting...
+[vite] connected.
+Warning: validateDOMNesting(...): <a> cannot appear as a descendant of &lt;a&gt;.
+    at a
+    at a
+    at https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=634895dd:337:18
+    at div
+    at div
+    at header
+    at Navbar (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/components/layout/Navbar.tsx:28:31)
+    at div
+    at QueryClientProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=6ebb156b:2805:3)
+    at App
+    at LanguageProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/contexts/LanguageContext.tsx:27:36)
+    at ThemeProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/components/ThemeProvider.tsx:25:3)
+at a
+at a
+at https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=634895dd:337:18
+at div
+at div
+at header
+at Navbar (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/components/layout/Navbar.tsx:28:31)
+at div
+at QueryClientProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=6ebb156b:2805:3)
+at App
+at LanguageProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/contexts/LanguageContext.tsx:27:36)
+at ThemeProvider (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/src/components/ThemeProvider.tsx:25:3)
+at t.value (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://522a43de-67f7-4d34-b48b-c0190c039ba3-00-g4k2zs0nhugs.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400

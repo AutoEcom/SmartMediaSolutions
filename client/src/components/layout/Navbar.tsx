@@ -34,13 +34,11 @@ export default function Navbar() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/">
-            <a className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-r from-accent to-accent/80 flex items-center justify-center">
-                <span className="font-bold text-white text-lg">SM</span>
-              </div>
-              <span className="font-bold text-xl">Smart Media</span>
-            </a>
+          <Link href="/" className="flex items-center space-x-2">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-r from-accent to-accent/80 flex items-center justify-center">
+              <span className="font-bold text-white text-lg">SM</span>
+            </div>
+            <span className="font-bold text-xl">Smart Media</span>
           </Link>
           
           {/* Desktop Navigation */}
